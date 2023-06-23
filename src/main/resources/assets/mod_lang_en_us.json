@@ -1,0 +1,13 @@
+{
+  "title": "Night has come",
+  "vote": "Starting a vote to skip the night",
+  "voteInstructions": "To skip, type /y. To not skip, type /n.",
+  "votedAgree": "You voted for: agree",
+  "votedOppose": "You voted for: oppose",
+  "votedHold": "You voted for: hold",
+  "votedStatus": "You have voted",
+  "notNight" : "Voting is only valid for 2 or more people on the server and at night",
+  "voteResult": "Vote Result: agree {0} , oppose {1}",
+  "skipNight" : "Skip the night...",
+  "preservedNight" : "Night is preserved. ..."
+}

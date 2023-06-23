@@ -1,0 +1,13 @@
+{
+  "title": "夜が来ました",
+  "vote": "夜をスキップするための投票を開始します",
+  "voteInstructions": "スキップするには/yと入力してください。スキップしない場合は/nと入力してください。",
+  "votedAgree": "賛成に投票しました",
+  "votedOppose": "反対に投票しました",
+  "votedHold": "保留に投票しました",
+  "votedStatus": "投票済みです",
+  "notNight" : "投票はサーバーに2人以上かつ夜のみ有効です",
+  "voteResult": "投票結果: 同意 {0}票, 反対 {1}票",
+  "skipNight" : "夜をスキップ中...",
+  "preservedNight" : "夜が維持されます..."
+}
