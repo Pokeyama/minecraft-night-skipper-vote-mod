@@ -1,28 +1,28 @@
-# NightSkipperVoteMod (Server-side)
+# NightSkipperVoteMod (Server-Side)
 
-NightSkipperVoteMod is a Minecraft Forge mod designed for server-side use. 
-It allows players on a server to vote for skipping the night cycle and advancing to the morning. 
-The mod provides a voting system where players can cast their votes by typing "/y" for agreement or "/n" for opposition. 
-The mod takes into account the number of votes and includes a hold option for players who choose not to vote.
+## Overview
+
+NightSkipperVoteMod is a Minecraft Forge mod designed for server-side usage. This mod allows players on the server to vote to skip the night cycle and progress to morning. Players can cast their votes in favor or against using commands.
 
 ## Features
 
-- Initiates voting when night falls on the server.
-- Players can vote by typing "/y" for agreement or "/n" for opposition.
-- Supports a hold option for players who choose not to vote.
-- Skips the night cycle and advances to morning if there are more "agree" votes or an equal number of "agree" and "hold" votes.
-- Includes language support for English (en_us) and Japanese (ja_JP).
-- Players can switch the mod's language by typing "/lang en" for English or "/lang ja" for Japanese.
+- **Works on the server-side. It does not function if installed on the client-side.**
+- When night falls on the server, the voting process is initiated, and the night can be skipped based on the outcome.
+- Language support for English (en_us) and Japanese (ja_JP).
+- Players can switch the language to English using the command "/lang en" or to Japanese using "/lang ja".
+
+## Installation Guide
+https://shockbyte.com/billing/knowledgebase/48/How-to-Install-Forge-Mods-on-Your-Minecraft-Server.html
 
 ## Usage
 
-1. When night falls on the server, the voting process starts.
-2. Players can cast their votes by typing "/y" for agreement or "/n" for opposition.
-3. Players can choose to hold their vote by not casting a vote.
-4. If the number of "agree" votes or the combined number of "agree" and "hold" votes is greater than the number of "oppose" votes, the night cycle will be skipped, and the server will advance to morning.
-5. Players can switch the mod's language by typing "/lang en" for English or "/lang ja" for Japanese.
+1. When night falls on the server, the voting process begins.
+2. Players can use the "/y" command to vote in favor or the "/n" command to vote against.
+3. If a player does not vote, their vote is considered as "undecided".
+4. If the number of "in favor" votes or the combined number of "in favor" and "undecided" votes is greater than or equal to the number of "against" votes, the night is skipped, and it transitions to morning.
+5. Players can switch the language to English using the "/lang en" command or to Japanese using the "/lang ja" command.
 
-Note: The mod requires at least 2 players on the server for the voting process to occur.
+Note: The voting process is only executed when there are at least two players on the server.
 
 ## License
 
